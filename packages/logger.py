@@ -29,7 +29,7 @@ def log_to_file(log_file):
                            f"time: {time}\n"
                            f"name: {func_name}\n"
                            f"args: {args, kwargs}\n"
-                           f"result: {result}\n")
+                           f"result: {result}\n\n")
 
             return result
         return wrapper
