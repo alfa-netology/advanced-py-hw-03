@@ -1,9 +1,4 @@
-from packages.logger import log_to_console, log_to_file
+from packages.utils import get_hash
 
-@log_to_file('log.txt')
-@log_to_console
-def summator(a, b):
-    return a + b
-
-
-summator(2, 3)
+if __name__ == "__main__":
+    get_hash('data/links.txt')

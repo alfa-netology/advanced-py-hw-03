@@ -24,7 +24,7 @@ def log_to_file(log_file):
             func_name = func.__name__
             result = func(*args, **kwargs)
 
-            with open(log_file, 'w', encoding='utf-8') as file:
+            with open(log_file, 'a', encoding='utf-8') as file:
                 file.write(f"date: {date}\n"
                            f"time: {time}\n"
                            f"name: {func_name}\n"

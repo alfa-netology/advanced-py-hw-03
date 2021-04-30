@@ -4,3 +4,4 @@ Pipfile
 Pipfile.lock
 output
 log.txt
+hash.txt
